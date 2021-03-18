@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Profile';
+  appTitle = 'Profile';
+  firstName = 'Elvira';
+  lastName = 'Prusaczyk';
+  fullName = this.firstName  + ' ' +  this.lastName;
+  industry = 'Social Psychology';
+  currentPosition = 'PHD Candidate';
+  education = '';
+  country = 'Canada';
 }

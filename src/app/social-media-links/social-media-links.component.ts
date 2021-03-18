@@ -2,11 +2,11 @@ import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-social-media',
-  templateUrl: './social-media.component.html',
-  styleUrls: ['./social-media.component.css']
+  templateUrl: './social-media-links.component.html',
+  styleUrls: ['./social-media-links.component.css']
 })
 
-export class SocialMediaComponent implements OnInit {
+export class SocialMediaLinksComponent implements OnInit {
 
   brockEmail = 'mailto:ep15je@brocku.ca';
   googleScholar = 'https://scholar.google.ca/citations?hl=en&amp;user=hIYIRIMAAAAJ';

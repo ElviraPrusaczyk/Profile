@@ -1,27 +1,22 @@
+<header>
+  <title>{{currentPosition}} {{fullName}}</title>
+</header>
+
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
-<app-social-media></app-social-media>
+ <!-- <app-welcome></app-welcome>
+  <app-social-media></app-social-media>
+  <app-about></app-about>-->
 </div>
+
+
 
 <!-- Highlight Card -->
 <div class="content" role="main">
-  <span>{{ title }} app is running!</span>
     <img src="assets/images/MyProfilePic.jpg" height="450" width="350">
-
-
-
     <footer> <!-- Footer -->
-      <a href="https://github.com/ElviraPrusaczyk/Profile" target="_blank" rel="noopener"> Give our website a star.
-        <div class="github-star-badge">
-          <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-            <path d="M0 0h24v24H0z" fill="none"/>
-            <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-          </svg>
-        </div>
-      </a>
+      <app-social-media></app-social-media>
     </footer>
-
   </div>
 
 <router-outlet></router-outlet>
-
