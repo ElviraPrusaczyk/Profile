@@ -18,6 +18,7 @@ h6 {
 
 p {
   margin: 0;
+  padding-top: 1000px;
 }
 
 .spacer {
@@ -33,7 +34,7 @@ p {
   display: flex;
   align-items: center;
   background-color: #51007c;
-  color: #ffffff;
+  color: #ffe579;
   font-weight: 600;
 }
 
@@ -68,14 +69,14 @@ a:hover {
   color: #2a87e2;
 }
 
-footer {
+.footer {
   margin-top: 8px;
   display: flex;
   align-items: center;
   line-height: 20px;
 }
 
-footer a {
+.footer a {
   display: flex;
   align-items: center;
 }
@@ -105,6 +106,8 @@ footer a {
   width: 16px;
   margin-right: 4px;
 }
+
+
 
 /* Responsive Styles */
 @media screen and (max-width: 767px) {

@@ -10,10 +10,11 @@
 a {
   text-decoration: none;
   color: #2ae2ab;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 a + a {
+  padding-top: 30px;
   padding-left: 30px;
 }
 
