@@ -11,7 +11,8 @@ export class ProfileComponent implements OnInit {
   lastName = 'Prusaczyk';
   fullName = this.firstName  + ' ' +  this.lastName;
   industry = 'Social Psychology';
-  occupations: string[] = ['PhD Candidate', 'Research Scientist', 'Writer'];
+  occupations = 'RESEARCH SCIENTIST | WRITER | PHD CANDIDATE ';
+  profilePicSrc = 'assets/images/MyProfilePic.jpg';
 
   constructor() { }
 

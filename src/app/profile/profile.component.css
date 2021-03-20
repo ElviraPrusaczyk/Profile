@@ -1,6 +1,15 @@
-#profile-pic {
+/*#profile-pic {
   position: relative;
   height: 175px;
   width: 125px;
   padding-top: 1px;
+}*/
+
+#profile-pic {
+  margin-bottom: 1.2em;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--background-secondary);
+  border-radius:100%;
 }

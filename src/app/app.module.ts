@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SocialMediaLinksComponent } from './profile/social-media-links/social-media-links.component';
-import { WelcomeComponent } from './profile/welcome/welcome.component';
 import { PublicationsComponent } from './profile/publications/publications.component';
 import { ResearchComponent } from './profile/research/research.component';
 import { ContactComponent } from './profile/contact/contact.component';
@@ -19,7 +18,6 @@ import { ProfileComponent } from './profile/profile.component';
   declarations: [
     AppComponent,
     SocialMediaLinksComponent,
-    WelcomeComponent,
     PublicationsComponent,
     ResearchComponent,
     ContactComponent,
