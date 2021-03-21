@@ -1,5 +1,5 @@
 <!-- Highlight Card -->
-  <div class="highlight-card profile modal-content text-left">
+  <div class="highlight-card profile modal-content text-center">
     <img class="card-img-top img-circle profile-pic" src="{{this.profilePicSrc}}">
     <div class="card-body">
 
@@ -12,7 +12,7 @@
 
 
         <br>
-        <div class="col-lg-10">
+        <div>
           <button [ngClass]="'btn btn-primary'"
                   type="submit"
                   (click)="submit()">
@@ -20,18 +20,16 @@
           </button>
         </div>
         <br>
-        <br>
 
-        <div class="col-lg-10">
-          <button [ngClass]="'btn btn-primary'"
+          <button [ngClass]="'btn btn-primary bottom'"
                   type="submit"
                   (click)="submit()">
             My Blog
           </button>
-        </div>
+        <br>
+        <br>
 
-
-        <app-social-media-links class = "modal-footer"></app-social-media-links>
+        <app-social-media-links></app-social-media-links>
 
       </div>
     </div>

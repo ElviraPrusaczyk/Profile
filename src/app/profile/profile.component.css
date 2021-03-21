@@ -1,8 +1,5 @@
-.main-content-profile {
-background-image: url(../../assets/images/cover.jpg);
-}
 
-.profile {
+/*.profile {
   position: fixed;
   width: 400px;
   height: 1000px;
@@ -15,13 +12,12 @@ background-image: url(../../assets/images/cover.jpg);
   left: 0px;
   background-color: var(--background-secondary);
   fill-opacity: 100%;
-}
+}*/
 
 .profile-pic {
-
   position: relative;
+  top:10px;
   width: 275px;
   height: 375px;
   border: 1px solid var(--background-card-default);
-  background-color: #2e4125;
 }
