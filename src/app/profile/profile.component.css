@@ -1,20 +1,4 @@
-
-/*.profile {
-  position: fixed;
-  width: 400px;
-  height: 1000px;
-  display: flex;
-  padding: 0 16px;
-  max-width: 960px;
-  flex-direction: column;
-  align-items: center;
-  top:0px;
-  left: 0px;
-  background-color: var(--background-secondary);
-  fill-opacity: 100%;
-}*/
-
-.profile-pic {
+#profile-pic {
   position: relative;
   top:10px;
   width: 225px;
@@ -22,9 +6,10 @@
   /*border: 1px solid var(--background-card-default);*/
 }
 
-#my-blog,
-#my-website {
+#my-website,
+#my-blog{
   height: 40px;
-  width: 80px;
+  width: 100px;
+  margin-right:10px;
 
 }

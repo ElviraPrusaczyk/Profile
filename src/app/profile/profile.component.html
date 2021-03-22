@@ -1,10 +1,23 @@
-<!-- Highlight Card -->
+<!--
+&lt;!&ndash; Highlight Card &ndash;&gt;
+
 <div class="container-fluid highlight-card modal-content text-center">
-  <img class="card-img-top img-circle profile-pic " src="{{this.profilePicSrc}}">
+  <h3>Welcome to my website!</h3>
+  <p>I am a PhD candidate currently completing my degree in Social Psychology at Brock
+    University,
+    St. Catharines, Ontario, Canada.
+
+    I am proficient in research design, data analysis and interpretation, and scientific dissemination.
+    As an intergroup researcher, I have expertise in sexism, including intersections related to race, sexual
+    orientation, and gender
+    expression.
+  </p>
+  <img class="card-img-top img-circle" id = "profile-pic" src="{{this.profilePicSrc}}">
 
   <br>
   <br>
-  <div class="card-body">
+
+  <div class="card-body card w-50">
     <div class="card-title">
       <h2> {{this.occupations[0]}} </h2>
       <h2> {{this.occupations[1]}} </h2>
@@ -13,22 +26,59 @@
       <app-social-media-links></app-social-media-links>
     </div>
 
+      <button class="btn btn-primary btn-group-sm"
+              id ="my-blog"
+              type="submit"
+              (click)="submit()">
+        My Blog
+      </button>
+
+  </div>
+
+</div>
+-->
+<div class=" text-center container-fluid">
+
+    <h3 class="card-title">Welcome to my website!</h3>
 
 
-    <button id ="my-blog"
-            [ngClass]="'btn btn-primary'"
+    <img class="img-circle" id = "profile-pic" src="{{this.profilePicSrc}}">
+
+  <br>
+  <br>
+        <h2> {{this.occupations[0]}} </h2>
+        <h2> {{this.occupations[1]}} </h2>
+        <h2> {{this.occupations[2]}} </h2>
+        <h1> {{this.fullName}} </h1>
+        <app-social-media-links></app-social-media-links>
+
+
+    <p>
+      I am a PhD candidate currently completing my degree in Social Psychology at Brock
+      University,
+      St. Catharines, Ontario, Canada.
+
+      I am proficient in research design, data analysis and interpretation, and scientific dissemination.
+      As an intergroup researcher, I have expertise in sexism, including intersections related to race, sexual
+      orientation, and gender
+      expression.
+    </p>
+
+    <button class="btn btn-primary btn-group-sm"
+            id ="my-blog"
             type="submit"
             (click)="submit()">
       My Blog
     </button>
 
-    <button id = "my-website"
-            [ngClass]="'btn btn-primary'"
+
+    <button class="btn btn-primary btn-group-sm"
+            id ="my-website"
             type="submit"
-            (click)="submit()"
-            title="My Website">
+            (click)="submit()">
       My Website
     </button>
 
+
   </div>
-</div>
+
